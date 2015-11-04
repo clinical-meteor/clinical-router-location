@@ -27,7 +27,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('iron:location');
+  api.use('iron:router-location');
   api.use('tinytest');
   api.use('test-helpers');
 
