@@ -1,6 +1,5 @@
-clinical:router-location
+## clinical:router-location
 
-==============================================================================
 Reactive urls that work with IE8/9 and modern pushState browsers.
 
 
