@@ -17,13 +17,14 @@ meteor add clinical:router
 #### Usage  
 
 ```javascript
-Deps.autorun(function () {
+Tracker.autorun(function () {
   // returns a "location" like object with all of the url parts
   var current = Iron.Location.get();
 
-  var href = current.href;
+  var auth = current.auth;
+  var path = current.path;
   var state = current.state;
-  var host = current.host;
+  var port = current.port;
   // etc
 });
 ```
