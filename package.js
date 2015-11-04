@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:router-location',
   summary: 'Reactive urls that work in IE8/9 and modern browsers.',
-  version: '2.0.13',
+  version: '2.0.14',
   git: 'https://github.com/clinical-meteor/clinical-router-location'
 });
 
