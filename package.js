@@ -31,5 +31,5 @@ Package.on_test(function (api) {
   api.use('tinytest');
   api.use('test-helpers');
 
-  api.add_files('tests/tinytest/location_test.js', 'client');
+  api.add_files('tests/tinytests/location_test.js', 'client');
 });
