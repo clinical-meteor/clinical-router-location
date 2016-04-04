@@ -2,7 +2,6 @@
 
 Reactive urls that work with IE8/9 and modern pushState browsers.
 
-
 ===============================
 #### Installation  
 
@@ -33,4 +32,4 @@ Tracker.autorun(function () {
 ===============================
 #### Licensing  
 
-MIT.  Use as you will.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)

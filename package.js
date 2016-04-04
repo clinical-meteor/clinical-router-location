@@ -1,12 +1,12 @@
 Package.describe({
   name: 'clinical:router-location',
   summary: 'Reactive urls that work in IE8/9 and modern browsers.',
-  version: '2.0.14',
+  version: '2.0.15',
   git: 'https://github.com/clinical-meteor/clinical-router-location'
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.1.0.3');
 
   api.use('underscore');
   api.use('tracker');
@@ -31,5 +31,5 @@ Package.on_test(function (api) {
   api.use('tinytest');
   api.use('test-helpers');
 
-  api.add_files('test/location_test.js', 'client');
+  api.add_files('tests/tinytest/location_test.js', 'client');
 });
