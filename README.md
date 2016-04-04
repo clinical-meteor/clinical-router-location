@@ -1,6 +1,6 @@
 ## clinical:router-location
 
-Reactive urls that work with IE8/9 and modern pushState browsers.
+Reactive urls that work with IE8/9 and modern pushState browsers.  
 
 ===============================
 #### Installation  
@@ -10,7 +10,6 @@ This package is a dependency of ``clinical:router``.  Just install the router pa
 ````bash
 meteor add clinical:router
 ````
-
 
 ===============================
 #### Usage  
