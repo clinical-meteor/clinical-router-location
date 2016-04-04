@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:router-location',
   summary: 'Reactive urls that work in IE8/9 and modern browsers.',
-  version: '2.0.15',
+  version: '2.1.0',
   git: 'https://github.com/clinical-meteor/clinical-router-location'
 });
 
@@ -15,7 +15,7 @@ Package.on_use(function (api) {
   api.use('iron:core@1.0.11');
   api.imply('iron:core');
 
-  api.use('clinical:router-url@2.0.13');
+  api.use('clinical:router-url@2.1.0');
 
   api.use('appcache', {weak: true});
 
